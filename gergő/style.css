@@ -1,0 +1,75 @@
+body {
+    background: white;
+    color: black;
+    font-family: Arial;
+}
+.kep {
+    width: 900px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid rgb(34, 177, 76) 10px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#rb {
+    transform: scaleX(-1);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#rt {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#lb {
+    transform: scaleX(-1);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+#lt {
+    transform: rotate(180deg);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.kapor {
+    font-size: 180px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 40px;
+    color:rgb(34, 177, 76);
+
+}
+#elsobekezdes {
+    font-weight: bold;
+    font-style: italic;
+}
+h2,
+h3 {
+    color: #22b14c;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+#kifejlettnoveny {
+    border: solid 2px black;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+}
+.szöveg {
+    margin-right: 200px;
+}
